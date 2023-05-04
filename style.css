@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#page-wrapper {
+    background-color: #1e1e21;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#page {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50vw;
+    margin-top: 70px;
+}
+
+.side-wrapper {
+    width: 15vw;
+    margin-top: 70px;
+}
+
+#menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 5px;
+    border-right: rgba(255, 255, 255, 0.538) solid 1px;
+    border-spacing: 10px;
+    height: 50vh;
+}
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li a {
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(217, 214, 214, 0.809);
+    text-align: end;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+
+#menu li a:hover {
+    color: white;
+}
+
+#title {
+    color: #7881e4;
+    font-size: 28px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+#title:hover {
+    color: #7881e4d3;
+}
+
+#main {
+    margin: 40px 30px;
+}
+
+section {
+    color: rgba(217, 214, 214, 0.809);
+}
+
+section h3 {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sect-desc {
+    margin-bottom: 10px;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+img {
+    border-radius: 15px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.img-group {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-group img {
+    height: 120px;
+}
+
+#toc-wrapper {
+    border-left: rgba(255, 255, 255, 0.538) solid 1px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#toc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 5px;
+    border-spacing: 10px;
+}
+
+#toc {
+    list-style: none;
+}
+
+#toc li {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toc li a {
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(217, 214, 214, 0.809);
+    text-align: start;
+    border-radius: 10px;
+    transition: all 0.1s;
+}
+
+#toc li a:hover {
+    color: white;
+}
+
+.toc-title {
+    color: white;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+#tocc {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}

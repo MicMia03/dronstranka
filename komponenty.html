@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rocnikovy projekt</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="page-wrapper">
+            <div id="page">
+                <div id="menu-wrapper" class="side-wrapper">
+                    <h2 id="title">Dron</h2>
+                    <ul id="menu">
+                        <li><a href="index.html">Dron</a></li>
+                        <li><a href="vyuzitie.html">Využitie dronov</a></li>
+                        <li><a href="typy_dronov.html">Typy dronov</a></li>
+                        <li><a href="komponenty.html">Zoznam a typ komponentov</a></li>
+                    </ul>
+                </div>
+                <div id="main-wrapper" class="wrapper">
+                    <div id="main">
+                        <section>
+                            <h3 id="1">Zoznam a typ komponentov</h3>
+                        </section>
+                        <section>
+                            <h4 id="2">Rám</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Rám je základný stavebný kameň každého drona – nosná konštrukcia všetkých komponentov.
+                                    Rámy udávajú hlavne veľkosť drona a akému účelu dron bude lietať.
+                                </p>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="3">Typy rámu:</h4>
+                        </section>
+                        <section>
+                            <h5>&emsp;Kvadrokoptéra</h5>
+                            <div>
+                                <p class="sect-desc">&emsp;&emsp;&#128077;Výhody - Jedným z najväčších prínosov pre použitie rámu typu 	 	
+                                    kvadrokoptér a je, že takmer všetky letové riadiace jednotky na trhu,
+                                    dnes môžu pracovať s týmto typom designu. Je to tiež jedna z 	 	
+                                    najjednoduchších konštrukcií, ktorú môžete použiť, čo je perfektné,
+                                    pokiaľ sa učíte postaviť dron prvýkrát.
+                                </p>
+                                <p class="sect-desc">&emsp;&emsp;&#128078;Nevýhody - Nevýhodou tohto typu rámu je, že ak zlyhá jeden motor
+                                    alebo vrtuľa, zostávajúce motory / vrtule nebudú schopné 		 	
+                kompenzovať výkon, čo spôsobí vo väčšine prípadov pád dronu. Je
+                                    teda veľmi zásadné zvoliť správny spôsob montáže a súčiastok! K
+                                    tomu sa ešte dostaneme
+                                </p>
+                                <div class="img-wrapper">
+                                    <img src="quadcop.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h5>&emsp;Trikoptéra</h5>
+                            <div>
+                                <p class="sect-desc">&emsp;&emsp;&#128077;Výhody - Keď je trikoptéra v pohybe, pripomína svojim 	 	 	
+                                    letom skôr lietadlo, než dron. Ďalším faktom je, že pre zostavenie 		
+                                    trikoptéry je potrebný menší počet bezkefových motorov – vyjde vás
+                                    o kus lacnejšie.
+                                </p>
+                                <p class="sect-desc">&emsp;&emsp;&#128078;Nevýhody-Vzhľadom na to, že tento návrh vyžaduje servomotor na
+                                    otáčanie zadného motora (pretože rám nie je symetrický), celkový
+                                    stavebný proces je teoreticky oveľa komplikovanejší. Aj keď sa 	 	
+                                    nedostaneme do detailov, dalo by sa povedať, že zadné rameno 	 	
+                                    vyžaduje veľa zložitej práce, aby ste dosiahli požadovaný efekt.
+                                </p>
+                                <div class="img-wrapper">
+                                    <img src="tricop.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h5>&emsp;Hexakoptéra a Oktokoptéra</h5>
+                            <div>
+                                <p class="sect-desc">&emsp;&emsp;&#128077;Výhody - Jedným z hlavných výhod týchto typov rámu je, že je možné
+                                    dodať viac ťahu. To je užitočné na zdvíhanie ťažších užitočných 	 	
+                                    zaťažení. Tiež, ak zlyhá jeden z motorov, je tu stále šanca s dronom
+                                    bezpečne pristáť.
+                                </p>
+                                <p class="sect-desc">&emsp;&emsp;&#128078;Nevýhody - Všeobecne platí, že budovanie týchto typov rámu bude
+                                    drahšie ako budovanie napríklad trikoptéry alebo kvadrokoptéry. To
+                je pochopiteľne spôsobené väčším počtom častí potrebných na to,
+                                    aby bola schopná lietať. Majte tiež na pamäti, že viac častí sa rovná
+                                    väčšej hmotnosti, takže bude nutné zvoliť pochopiteľne silnejšie a
+                                    väčšie typy batérií a motorov.
+                                </p>
+                                <div class="img-wrapper">
+                                    <img src="hexa.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div>
+                                <p class="sect-desc">&emsp;Kvôli týmto poznatkov sme sa rozhodli zvoliť model kvadrokoptéri nakoľko je ekonomicky a
+                                    dizajnovo najvhodnejsi pre účeli tohto projektu</p>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="4">Základné typy materiálov rámov:</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;&emsp;Uhlíkové vlákno je veľmi tvrdé a zároveň veľmi ľahké. Táto priaznivá kombinácia 		
+                                    fyzických vlastností výrazne ovplyvní konečnú spotrebu energie celého dronu.
+                                </p>
+                                <p class="sect-desc">&emsp;&emsp;Väčšina komerčných dronov, ktoré dnes kupujeme, prichádza s plastovými rámami.
+                                    3D tlačové lisované plastové rámy sa stali neuveriteľne populárne medzi milovníkov
+                                    dronov. Všeobecne platí, že použitie 3D tlačiarne na vytvorenie dokonale 		 	
+                                    tvarovaného plastového rámu je niečo, čo funguje iba na menších dronách.
+                                </p>
+                                <p class="sect-desc">&emsp;&emsp;Aj hliník možno pochopiteľne použiť na stavbu rámu. Je ľahký (aj keď nie tak ľahký
+                                    ako uhlíkové vlákno), flexibilný a je s ním relatívne ľahké pracovať. Hliník je možné
+                                    použiť na vytvorenie celého rámu alebo jednoducho ako doplňujúci materiál 	 	
+                                    niektorých častí (ramená, podvozok atď.). Ďalším prínosom pre hliníkové rámy je, že
+                                    tento typ materiálu je lacný aj ľahko prístupný
+                                </p>
+                                <div class="img-group">
+                                    <div class="img-wrapper">
+                                        <img src="https://i.ibb.co/zGgMh6h/image.png" alt="">
+                                        <p>Uhlíkové vlákno</p>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <img src="https://i.ibb.co/TKkPdXd/image.png" alt="">
+                                        <p>Plast</p>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <img src="https://i.ibb.co/Yt0rdRR/image.png" alt="">
+                                        <p>Hliník</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="5">Motory</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Motory sú srdcom a dušou dronu. Motory nám umožňujú zdvihnúť rám zo zeme, vznášať
+                                    sa a lietať v smere podľa vášho výberu. Všeobecné pravidlo znie, že by mal byť každý 	 	
+                                    motor napájaný rovnakým napätím. V opačnom prípade narazíte na problémy so stabilitou.</p>
+                                <p class="sect-desc">&emsp;Základným parametrom motora je hodnota KV. KV hodnotenie motora sa vzťahuje na to,
+                                    ako rýchlo je schopný sa točiť za určitého napätia.</p>
+                                <p class="sect-desc">&emsp;My sme pre náš projekt vybrali motory značky speedybee ktoré sú lahke ale zato maju 	 	
+                                    veľmi dobrú hodnotu KV.</p>
+                                <div class="img-wrapper">
+                                    <img src="https://i.ibb.co/PMDpddM/image.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="6">Vrtule</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Vrtule sa pripevňujú k motorom dronu. Rovnako tak, ako rámy, môžu byť aj vrtule vyrobené
+                                    zo širokej škály materiálov a veľkostí. Menšie vrtule majú vlastnosť ľahkého zrýchlenia, 	 	
+                                    alebo spomalenia koptéry, čo je veľmi užitočné pre akrobatické lety. Väčšie vrtule alebo tie
+                                    s väčším priemerom sú vhodnejšie pre stabilnejšie lety, pretože je naopak zrýchlenie a 	 	
+                                    spomalenie ťažšie.</p>
+                                <p class="sect-desc">&emsp;My sme pre náš projekt vybrali tieto vrtule, ktoré su vhodné pre naše motory</p>
+                                <div class="img-wrapper">
+                                    <img src="https://i.ibb.co/V9QLd8B/image.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="7">Elektronický regulátor otáčok (ESC)</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Elektronický regulátor otáčok (ESC) je vecou, ktorá poskytuje riadenému lietadlu možnosť
+                                    riadiť smer a rýchlosť motorov. Stručne povedané, je to veľmi dôležitá súčasť, ktorú treba
+                                    pri stavbe dronu dobre poznať.</p>
+                                <p class="sect-desc">&emsp;My sme pre náš projekt vybrali tieto vrtule, ktoré su vhodné pre naše motory</p>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="8">FC (Flight Controller) doska</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Je hlavným riadiacim a kontrolným centrom dronu. Je to elektronický obvod, ktorý slúži na
+                                    spracovanie informácií zo senzorov a kontrolných prvkov, ako sú giroskopy, akcelerometry
+                                    a barometry, a na riadenie motorov a iných komponentov dronu.
+                                    FC doska poskytuje inteligentné riadenie dronu, umožňuje mu vykonávať automatické 	 	
+                                    manévre, ako je napríklad návrat do základne, a zabezpečuje, aby dron letel rovnomerne a
+                                    stabilne. Taktiež umožňuje využívať funkcie ako GPS, automatický let po trase a iné 	 	
+                                    funkcie, ktoré uľahčujú ovládanie dronu a zvyšujú jeho funkčnosť.
+                                    V krátkosti, FC doska je kľúčovým prvkom dronu, bez ktorého by nebol schopný lietať a
+                                    vykonávať svoje funkcie správne.</p>
+                                <p class="sect-desc">&emsp;My sme pre náš projekt vybrali tento stack, krorý obsahuje ECS aj FC je značky speedybee.</p>
+                                <div class="img-wrapper">
+                                    <img src="https://i.ibb.co/hsvB5B4/image.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <h4 id="9">Prijímač (receiver, RX)</h4>
+                            <div>
+                                <p class="sect-desc">&emsp;Je súčasťou dronu, ktorá slúži na prijímanie signálov z diaľkového ovládania. Keď pilot 	 	
+                                    zadá príkaz cez diaľkové ovládanie, signál prechádza do prijímača v dronu, kde sa 	 	
+                                    spracúva a prenesie na riadiacu jednotku (FC - flight controller). Riadiaca jednotka potom
+                                    vykoná príslušné akcie v súlade s prijatým príkazom, ako napríklad zmena výšky, smeru
+                                    alebo rýchlosti letu.</p>
+                                <p class="sect-desc">&emsp;My sme pre náš projekt vybrali takýto prijmáč, ktorý sa dodáva spolu s diaľkovým ovládačom.</p>
+                                <div class="img-wrapper">
+                                    <img src="https://i.ibb.co/cN4bKgt/image.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+                <div id="toc-wrapper" class="side-wrapper">
+                    <div id="tocc">
+                        <p class="toc-title"># Obsah stránky</p>
+                        <ul id="toc">
+                            <li><a href="#1">Zoznam a typ komponentov</a></li>
+                            <li><a href="#2">Rám</a></li>
+                            <li><a href="#3">Typy rámu</a></li>
+                            <li><a href="#4">Základné typy materiálov rámov</a></li>
+                            <li><a href="#5">Motory</a></li>
+                            <li><a href="#6">Vrtule</a></li>
+                            <li><a href="#7">Elektronický regulátor otáčok (ESC)</a></li>
+                            <li><a href="#8">FC (Flight Controller) doska</a></li>
+                            <li><a href="#9">Prijímač (receiver, RX)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
